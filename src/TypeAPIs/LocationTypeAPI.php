@@ -9,6 +9,16 @@ use PoP\Locations\TypeAPIs\LocationTypeAPIInterface;
 class LocationTypeAPI implements LocationTypeAPIInterface
 {
     /**
+     * Return the location's ID
+     *
+     * @param [type] $location
+     * @return void
+     */
+    public function getID($location)
+    {
+        return $location->post_id;
+    }
+    /**
      * Indicates if the passed object is of type Location
      *
      * @param [type] $object
