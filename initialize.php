@@ -1,2 +1,2 @@
 <?php
-\PoP\LocationsWP\Component::init();
+//\PoP\LocationsWP\Component::initialize();
