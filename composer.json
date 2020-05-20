@@ -19,7 +19,8 @@
     "prefer-stable": true,
     "require": {
         "php" : "~7.1",
-        "getpop/locations": "dev-master"
+        "getpop/locations": "dev-master",
+        "getpop/engine-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=7.0",

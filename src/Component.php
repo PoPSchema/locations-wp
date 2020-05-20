@@ -19,6 +19,7 @@ class Component extends AbstractComponent
     {
         return [
             \PoP\Locations\Component::class,
+            \PoP\EngineWP\Component::class,
         ];
     }
 
