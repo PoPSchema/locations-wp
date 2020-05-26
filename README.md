@@ -25,7 +25,9 @@ composer require getpop/locations-wp
 Initialize the component:
 
 ``` php
-\PoP\LocationsWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\LocationsWP\Component::class,
+]);
 ```
 
 ## Standards
