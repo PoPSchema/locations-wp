@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="locations-wp">
-    <description>The coding standard of locations-wp package</description>
+<ruleset name="locations-wp-em">
+    <description>The coding standard of locations-wp-em package</description>
     <arg value="p" />
 
     <config name="ignore_warnings_on_exit" value="1" />
