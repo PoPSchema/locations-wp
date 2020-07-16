@@ -6,13 +6,14 @@ namespace PoP\LocationsWP;
 
 use PoP\Root\Component\AbstractComponent;
 use PoP\Root\Component\YAMLServicesTrait;
+use PoP\Root\Component\CanDisableComponentTrait;
 
 /**
  * Initialize component
  */
 class Component extends AbstractComponent
 {
-    use YAMLServicesTrait;
+    use YAMLServicesTrait, CanDisableComponentTrait;
     // const VERSION = '0.1.0';
 
     public static function getDependedComponentClasses(): array
@@ -31,6 +32,16 @@ class Component extends AbstractComponent
     }
 
     /**
+     * Enable if plugin Events Manager is installed
+     *
+     * @return void
+     */
+    protected static function resolveEnabled()
+    {
+        return defined('EM_VERSION');
+    }
+
+    /**
      * Initialize services
      */
     protected static function doInitialize(
@@ -38,7 +49,9 @@ class Component extends AbstractComponent
         bool $skipSchema = false,
         array $skipSchemaComponentClasses = []
     ): void {
-        parent::doInitialize($configuration, $skipSchema, $skipSchemaComponentClasses);
-        self::initYAMLServices(dirname(__DIR__));
+        if (self::isEnabled()) {
+            parent::doInitialize($configuration, $skipSchema, $skipSchemaComponentClasses);
+            self::initYAMLServices(dirname(__DIR__));
+        }
     }
 }
