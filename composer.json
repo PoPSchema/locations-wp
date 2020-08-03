@@ -18,14 +18,14 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php" : "~7.1",
+        "php": "~7.2",
         "getpop/locations": "dev-master",
         "getpop/engine-wp": "dev-master",
         "getpop/migrate-locations-wp-em": "dev-master"
     },
     "require-dev": {
         "wpackagist-plugin/events-manager": "^5.9",
-        "phpunit/phpunit": ">=9.2",
+        "phpunit/phpunit": ">=8.5",
         "squizlabs/php_codesniffer": "^3.0"
     },
     "suggest": {
