@@ -17,7 +17,7 @@ Implementation for WordPress of contracts from package "Locations"
 Via Composer
 
 ``` bash
-composer require getpop/locations-wp-em
+composer require pop-schema/locations-wp-em
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\LocationsWP\Component::class,
+    \PoPSchema\LocationsWP\Component::class,
 ]);
 ```
 
@@ -61,17 +61,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/locations-wp-em.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pop-schema/locations-wp-em.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/locations-wp-em/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/locations-wp-em.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/locations-wp-em.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/locations-wp-em.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pop-schema/locations-wp-em/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pop-schema/locations-wp-em.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pop-schema/locations-wp-em.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pop-schema/locations-wp-em.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/locations-wp-em
-[link-travis]: https://travis-ci.org/getpop/locations-wp-em
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/locations-wp-em/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/locations-wp-em
-[link-downloads]: https://packagist.org/packages/getpop/locations-wp-em
+[link-packagist]: https://packagist.org/packages/pop-schema/locations-wp-em
+[link-travis]: https://travis-ci.org/pop-schema/locations-wp-em
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pop-schema/locations-wp-em/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/locations-wp-em
+[link-downloads]: https://packagist.org/packages/pop-schema/locations-wp-em
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors

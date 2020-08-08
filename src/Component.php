@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoP\LocationsWP;
+namespace PoPSchema\LocationsWP;
 
 use PoP\Root\Component\AbstractComponent;
 use PoP\Root\Component\YAMLServicesTrait;
@@ -19,7 +19,7 @@ class Component extends AbstractComponent
     public static function getDependedComponentClasses(): array
     {
         return [
-            \PoP\Locations\Component::class,
+            \PoPSchema\Locations\Component::class,
             \PoP\EngineWP\Component::class,
         ];
     }

@@ -1,5 +1,5 @@
 {
-    "name": "getpop/locations-wp-em",
+    "name": "pop-schema/locations-wp-em",
     "type": "library",
     "description": "Implementation for WordPress of contracts from package \"Locations\"",
     "keywords": [
@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/locations": "dev-master",
+        "pop-schema/locations": "dev-master",
         "getpop/engine-wp": "dev-master",
-        "getpop/migrate-locations-wp-em": "dev-master"
+        "pop-schema/migrate-locations-wp-em": "dev-master"
     },
     "require-dev": {
         "wpackagist-plugin/events-manager": "^5.9",
@@ -33,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\LocationsWP\\": "src"
+            "PoPSchema\\LocationsWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\LocationsWP\\": "tests"
+            "PoPSchema\\LocationsWP\\": "tests"
         }
     },
     "scripts": {
