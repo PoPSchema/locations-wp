@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoPSchema\LocationsWP\Component::class,
+    \PoPSchema\LocationsWPEM\Component::class,
 ]);
 ```
 

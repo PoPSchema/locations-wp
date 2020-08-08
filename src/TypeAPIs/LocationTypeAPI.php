@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoPSchema\LocationsWP\TypeAPIs;
+namespace PoPSchema\LocationsWPEM\TypeAPIs;
 
 use WP_Post;
 use PoPSchema\Locations\TypeAPIs\LocationTypeAPIInterface;

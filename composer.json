@@ -33,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoPSchema\\LocationsWP\\": "src"
+            "PoPSchema\\LocationsWPEM\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoPSchema\\LocationsWP\\": "tests"
+            "PoPSchema\\LocationsWPEM\\": "tests"
         }
     },
     "scripts": {

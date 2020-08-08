@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoPSchema\LocationsWP;
+namespace PoPSchema\LocationsWPEM;
 
 use PoP\Root\Component\AbstractComponent;
 use PoP\Root\Component\YAMLServicesTrait;
