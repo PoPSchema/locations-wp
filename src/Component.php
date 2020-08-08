@@ -27,7 +27,7 @@ class Component extends AbstractComponent
     public static function getDependedMigrationPlugins(): array
     {
         return [
-            'migrate-locations-wp-em',
+            'pop-schema/migrate-locations-wp-em',
         ];
     }
 
