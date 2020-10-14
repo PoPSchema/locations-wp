@@ -1,4 +1,4 @@
 services:
-    location_type_api:
+    PoPSchema\Locations\TypeAPIs\LocationTypeAPIInterface:
         class: \PoPSchema\LocationsWPEM\TypeAPIs\LocationTypeAPI
         public: true
