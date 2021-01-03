@@ -2,10 +2,7 @@
     "name": "pop-schema/locations-wp-em",
     "type": "library",
     "description": "Implementation for WordPress of contracts from package \"Locations\"",
-    "keywords": [
-        "PoP",
-        "locations-wp-em"
-    ],
+    "keywords": ["PoP", "locations-wp-em"],
     "homepage": "https://github.com/PoPSchema/locations-wp-em",
     "license": "MIT",
     "authors": [
@@ -26,7 +23,7 @@
     "require-dev": {
         "wpackagist-plugin/events-manager": "^5.9",
         "phpunit/phpunit": ">=9.3",
-        "rector/rector": "^0.8.17",
+        "rector/rector": "^0.9",
         "squizlabs/php_codesniffer": "^3.0"
     },
     "suggest": {
